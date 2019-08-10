@@ -1,0 +1,4 @@
+Q: How would you test an HTTP API of some service? 
+A: Depending on the implementation of API, the API returns a value or returns an error based on the request made. To test an API we have to assert or validated the return values of the API call.
+
+Note: I have implemented all the possible test cases for the API, including the case where a wrong IFSC is given(test_wrong_ifsc method)
